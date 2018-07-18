@@ -1,0 +1,15 @@
+spring:
+  http:
+    multipart:
+      maxFileSize: 10Mb
+      maxRequestSize: 100Mb
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false    #开发时关闭缓存,不然没法看到实时页面
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: DEBUG
